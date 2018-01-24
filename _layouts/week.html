@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img class="navbar-peg" src="{{ site.baseurl }}/assets/img/peg_blue.svg" />
+        MAS.712 - LCL
+      </a>
+      <div class="collapse navbar-collapse" id="navbar-content">
+        <div class="navbar-nav mr-auto"><!-- Dummy element to force weeks dropdown to shift right --></div>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-week-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weeks
+            </a>
+            <div id="navbar-weeks-dropdown" class="dropdown-menu" aria-labelledby="navbar-week-dropdown">
+              <a class="dropdown-item" href="/weeks/1-introduction">1 &mdash; Introduction</a>
+              <a class="dropdown-item" href="/weeks/2-projects">2 &mdash; Projects</a>
+              <a class="dropdown-item" href="/weeks/3-passion">3 &mdash; Passion</a>
+              <a class="dropdown-item" href="/weeks/4-peers">4 &mdash; Peers</a>
+              <a class="dropdown-item" href="/weeks/5-play">5 &mdash; Play</a>
+              <a class="dropdown-item" href="/weeks/6-creative-society">6 &mdash; Creative Society</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid"">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  <!-- Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+</html>
