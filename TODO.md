@@ -10,3 +10,4 @@
 -[ ] Check mobile layouts
 -[ ] Fix footer to bottom of content
 -[ ] Fix resizing issue with background pegs
+-[x] Fix links in google doc iframes so they open in a new tab
