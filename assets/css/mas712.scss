@@ -119,6 +119,24 @@ $peg-size: 49px;
 }
 
 /* Page Layout */
+#background-pegs {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.background-peg {
+  position: absolute;
+  width: $peg-size;
+  height: $peg-size;
+  opacity: 0.2;
+}
+
 .navbar-peg {
 	width: 30px;
 	height: 30px;
@@ -159,8 +177,7 @@ $peg-size: 49px;
 }
 
 /* Footer */
-footer {
-	margin-top: 0;
+.footer-container {
 	padding-top: 41px;
 	padding-bottom: 61px;
 	background-color: #f0f4f6;
