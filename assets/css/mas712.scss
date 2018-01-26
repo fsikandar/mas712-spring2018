@@ -144,7 +144,7 @@ $peg-size: 49px;
 }
 
 #navbar-weeks-dropdown {
-	left: -100px; // Kind of a bad hack
+	left: -150px; // Kind of a bad hack
 }
 
 .front-page-content {
@@ -211,3 +211,13 @@ $peg-size: 49px;
   position: relative;
   top: 72px;
 }
+
+/* 404 Error Page */
+
+.error-404-content {
+  margin-top: 101px;
+  padding: 21px;
+  background-color: #fff;
+  border-radius: .3rem;
+}
+

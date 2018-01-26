@@ -9,7 +9,7 @@ layout: default
         </div>
         <div id="peg-grid-title">MAS.712 &mdash; Learning Creative Learning</div>
         <div id="peg-grid-subtitle">
-            Spring 2018 &mdash; Tuesdays 1-3pm &mdash; E15-341
+            Spring 2018 &mdash; Thursdays 1-3pm &mdash; E15-341
         </div>
     </div>
 </div>
