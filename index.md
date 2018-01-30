@@ -23,7 +23,7 @@ layout: default
             The course is organized around the “Four P’s of Creative Learning”: Projects, Passion, Peers, and Play. Through hands-on activities and discussions, we will explore strategies for supporting interest-driven, project-based, collaborative approaches to learning.
         </p>
         <p class="lead">
-            Note that this course is not a general survey of innovative learning technologies. Rather, it explores the idea of “creative learning” by focusing on a small set of case studies, drawn primarily from work in the Lifelong Kindergarten research group (most notably, the Scratch programming language and online community). Similarly, the primary readings will come from a draft version of the book Lifelong Kindergarten, to be published later this year.
+            Note that this course is not a general survey of learning approaches and learning technologies. Rather, it explores the idea of “creative learning” by focusing on a small set of case studies, drawn primarily from work in the Lifelong Kindergarten research group at the MIT Media Lab. Excerpts from Mitchel Resnick’s new book Lifelong Kindergarten will serve as core readings in the class.
         </p>
     </div>
     <div class="col-4">
