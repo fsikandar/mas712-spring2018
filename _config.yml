@@ -46,3 +46,4 @@ exclude:
   - .sass-cache/
   - README.md
   - TODO.md
+  - deploy.sh
