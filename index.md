@@ -7,7 +7,11 @@ layout: default
         <div id="peg-grid-overflow">
             <!-- Populated by pegs.js -->
         </div>
-        <div id="peg-grid-title">MAS.712 &mdash; Learning Creative Learning</div>
+        <div id="peg-grid-title">
+            <span class="d-none d-md-inline">MAS.712 &mdash; Learning Creative Learning</span>
+            <span class="d-inline d-md-none">MAS.712</span><br />
+            <span class="d-inline d-md-none">Learning Creative Learning</span>
+        </div>
         <div id="peg-grid-subtitle">
             Spring 2018 &mdash; Thursdays 1-3pm &mdash; E15-341
         </div>
@@ -15,7 +19,7 @@ layout: default
 </div>
 
 <div class="row justify-content-center front-page-content">
-    <div class="col-6">
+    <div class="col-md-6 order-6 order-md-1 course-description">
         <p class="lead">
             We live in an era of rapid change &mdash; so the ability to think and act creatively is more important than ever before. Unfortunately, most activities in children's lives, whether it's lessons in the classroom or games in the living room, are not designed to help them develop as creative thinkers. In this half-semester (six-week) course, we explore new technologies, activities, and strategies to engage children in creative learning experiences, so that they are prepared to flourish in a fast-changing world.
         </p>
@@ -26,7 +30,7 @@ layout: default
             Note that this course is not a general survey of learning approaches and learning technologies. Rather, it explores the idea of “creative learning” by focusing on a small set of case studies, drawn primarily from work in the Lifelong Kindergarten research group at the MIT Media Lab. Excerpts from Mitchel Resnick’s new book Lifelong Kindergarten will serve as core readings in the class.
         </p>
     </div>
-    <div class="col-4">
+    <div class="col-md-4 order-1 order-md-6">
         <div class="first-day-form">
             <h3 class="text-center">First Day Form</h3>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2UNGfp3FY-F0Jn2wfJQP7-YnTV1TFYj5sVM7-C5Xf3LjM1w/viewform" class="btn btn-primary btn-lg btn-block">Introduce Yourself!</a>

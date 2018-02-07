@@ -63,41 +63,41 @@ $peg-size: 49px;
   color: white;
 }
 
-@media (max-width: 767px) {
+// Extra small screens
+@media (max-width: 575.98px) {
   #peg-grid-title {
+    font-size: 28px;
     top: $peg-size * 1;
     left: $peg-size * 1;
-    width: $peg-size * 4;
-    height: $peg-size * 3;
+    width: $peg-size * 6;
+    height: $peg-size * 2;
     padding-top: 13px;
-    line-height: 1.1em;
+    line-height: .9em;
     padding-left: 21px;
   }
 
   #peg-grid-subtitle {
-    top: $peg-size * 5;
+    font-size: 16px;
+    top: $peg-size * 4;
     left: $peg-size * 1;
-    width: $peg-size * 7;
-    height: $peg-size * 3;
+    width: $peg-size * 6;
+    height: $peg-size * 1;
     line-height: 1.1em;
     padding-left: 21px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+// Small screens
+@media (min-width: 576px) and (max-width: 767.98px) {
   #peg-grid-title {
-    top: $peg-size * 2;
+    font-size: 32px;
+    top: $peg-size * 1;
     left: $peg-size * 2;
-    width: $peg-size * 10;
+    width: $peg-size * 9;
     height: $peg-size * 2;
-  }
-
-  #peg-grid-subtitle {
-    top: $peg-size * 5;
-    left: $peg-size * 2;
-    width: $peg-size * 12;
-    height: $peg-size * 2;
-    line-height: 1.1em;
+    padding-top: 13px;
+    line-height: 1.2em;
+    padding-left: 21px;
   }
 }
 
@@ -116,6 +116,16 @@ $peg-size: 49px;
 
 .first-day-form {
 	margin-bottom: 41px;
+}
+
+@media (max-width: 767.98px) {
+  .lead {
+    font-size: 18px;
+  }
+  
+  .course-description {
+    padding-top: 18px;
+  }
 }
 
 /* Page Layout */
@@ -333,6 +343,8 @@ $peg-size: 49px;
 .footer-container {
 	padding-top: 41px;
 	padding-bottom: 61px;
+  padding-left: 25px;
+  padding-right: 25px;
 	background-color: #f0f4f6;
 }
 
