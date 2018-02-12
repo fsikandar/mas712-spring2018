@@ -31,16 +31,18 @@ layout: default
         </p>
     </div>
     <div class="col-md-4 order-1 order-md-6">
+        <!--
         <div class="first-day-form">
             <h3 class="text-center">First Day Form</h3>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2UNGfp3FY-F0Jn2wfJQP7-YnTV1TFYj5sVM7-C5Xf3LjM1w/viewform" class="btn btn-primary btn-lg btn-block">Introduce Yourself!</a>
         </div>
+        -->
         
 
         <h2 class="text-center">Weekly Stuff</h2>
         <div class="list-group">
-            <a href="{{ site.baseurl }}/weeks/1-introduction" class="list-group-item front-page-list-item">Feb 8 &mdash; Introduction<img class="front-page-current-indicator" src="{{ site.baseurl }}/assets/img/peg_blue.svg" /></a>
-            <a href="{{ site.baseurl }}/weeks/2-projects" class="list-group-item front-page-list-item">Feb 15 &mdash; Projects</a>
+            <a href="{{ site.baseurl }}/weeks/1-introduction" class="list-group-item front-page-list-item">Feb 8 &mdash; Introduction</a>
+            <a href="{{ site.baseurl }}/weeks/2-projects" class="list-group-item front-page-list-item">Feb 15 &mdash; Projects<img class="front-page-current-indicator" src="{{ site.baseurl }}/assets/img/peg_blue.svg" /></a>
             <a href="{{ site.baseurl }}/weeks/3-passion" class="list-group-item front-page-list-item">Feb 22 &mdash; Passion</a>
             <a href="{{ site.baseurl }}/weeks/4-peers" class="list-group-item front-page-list-item">Mar 1 &mdash; Peers</a>
             <a href="{{ site.baseurl }}/weeks/5-play" class="list-group-item front-page-list-item">Mar 8 &mdash; Play</a>
